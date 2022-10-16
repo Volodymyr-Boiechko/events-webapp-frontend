@@ -40,3 +40,13 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Frontend
+/package-lock.json
+/output/static
+.angular/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
